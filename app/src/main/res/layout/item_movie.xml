@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+
     android:layout_height="wrap_content">
 
     <!--    <TextView-->
@@ -34,6 +35,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/ivPoster"
+
         android:textSize="22dp"
         tools:text="Fast and Furious presents: Hobbs and Shaw" />
 
@@ -41,10 +43,12 @@
         android:id="@+id/tvOverview"
         android:layout_width="match_parent"
         android:layout_height="65dp"
+
         android:layout_below="@+id/tvTitle"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
+
         android:layout_toEndOf="@+id/ivPoster"
         tools:text="Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth." />
 

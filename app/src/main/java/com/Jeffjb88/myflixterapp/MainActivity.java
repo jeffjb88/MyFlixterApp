@@ -5,9 +5,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import okhttp3.Headers;
 
-import android.content.Intent;
+
 import android.os.Bundle;
-import android.os.Handler;
+
 import android.util.Log;
 
 import com.Jeffjb88.myflixterapp.adapters.MovieAdapter;
