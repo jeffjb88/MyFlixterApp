@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView4"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginStart="5dp"-->
+    <!--        android:layout_marginTop="-19dp"-->
+    <!--        android:layout_toEndOf="@+id/ivPoster"-->
+    <!--        android:text="TextView" />-->
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        tools:srcCompat="@tools:sample/avatars[7]" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:textSize="24dp"
+        tools:text="Fast and Furious presents: Hobbs and Shaw" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        tools:text="Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth." />
+
+</RelativeLayout>
